@@ -45,17 +45,7 @@ for runtime = 1:runtimes
     else
         load(['predata/',dataname,'_wrapperIndex.mat']);
     end
-
     
-%     if exist(['../fixdata/',dataname,'Index.mat'],'file')==0
-%         trainIndex = rand(size(labeledLabel,1),1)<ax;
-%         testIndex = ~trainIndex;
-%         save(['../fixdata/',dataname,'Index'],'testIndex','trainIndex');
-%     else
-% %         trainIndex = rand(size(labeledLabel,1),1)<ax;
-% %         testIndex = ~trainIndex;
-%         load(['../fixdata/',dataname,'Index.mat']);
-%     end
     trainIndex = rand(size(labeledLabel,1),1)>2;
     trainIndex(wrapperIndex) = 1;
     testIndex = trainIndex;

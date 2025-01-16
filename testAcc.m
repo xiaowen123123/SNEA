@@ -4,10 +4,6 @@ accKNN = zeros(runtimes,3);
 accSVM = zeros(runtimes,3);
 accRDF = zeros(runtimes,3);
 for runtime = 1:runtimes
-    % load fulldata
-
-%     Fulldata = cell2mat(struct2cell(load(['../dataset/',dataname,'_corrected.mat'])));
-%     Fulllabel = cell2mat(struct2cell(load(['../dataset/',dataname,'_gt.mat'])));
     x = size(Fulldata);
     
     % reshape the data to instanceN * bandsN
@@ -33,8 +29,6 @@ for runtime = 1:runtimes
         testIndex = ~trainIndex;
         save(['../newfixdata/',dataname,'Index'],'testIndex','trainIndex');
     else
-%         trainIndex = rand(size(labeledLabel,1),1)<ax;
-%         testIndex = ~trainIndex;
         load(['../newfixdata/',dataname,'Index.mat']);
     end
 

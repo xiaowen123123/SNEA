@@ -30,15 +30,8 @@ function  [pfs,pobjs] = MOCSO(grayValue,fulllabel,n,MIall,SSIMall,nearpoints,MS,
     maxIt = 50; 	
     popNum = 50;
     num_subset = n; %preset num of feature subset
-    
-%     index = randperm(featNum,popNum,num_subset);
-    
+
     pop = zeros(popNum, featNum);
-%     for i = 1:popNum
-%         index = randperm(featNum,num_subset);
-%         pop(i,index) = 1;
-%     end
-%     pop = pop>0.5;
     
 %% new Init for each group
 
@@ -55,26 +48,9 @@ function  [pfs,pobjs] = MOCSO(grayValue,fulllabel,n,MIall,SSIMall,nearpoints,MS,
     end
     pop = pop>0.5;
     
-    
-%% %%%%%%%%     test
-%     K = 500;
-%     mS = zeros(K,size(pop,2));
-%     nK = zeros(K,1);
-%     for i = 1:K
-%        S = cell2mat(Results_segment.Y(1,i));
-%        mS(i,:) = mean(S);
-%        nK(i) = size(S,1);
-%     end
-%     m = mean(mS);
-    
     bandnear = zeros(1,featNum);
     bandEntrop = zeros(1,featNum);
     for nearI = 1:featNum
-%         nearpop=zeros(1,featNum)>0;
-%         nearpop(nearI)=1;
-%         bandnear(nearI) = CalcTL(GLA,nearpop,Lnear); 
-%         bandnear(nearI) = -CalcVar(grayValue,nearpop);
-%         bandnear(nearI) = Calcnear(grayValue,nearpoints,nearpop,MS);
         bandEntrop(nearI) = Entrop(grayValue(:,nearI)');
         bandnear = -bandEntrop;
     end

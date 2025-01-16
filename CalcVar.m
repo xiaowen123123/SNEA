@@ -9,10 +9,7 @@ function Var = CalcVar(data,pop)
            X(1,index) = true;
            ns = sum(X);
         end
-%         v = var(data(:,X),1).*(size(data,1)-1)./(size(data,1));
         v = var(data(:,X));
-%         v = std(data(:,X))./mean(data(:,X));
         Var(m) = mean(v);
     end
-%     Var = (Var-min(Var))/(max(Var)-min(Var));
 end

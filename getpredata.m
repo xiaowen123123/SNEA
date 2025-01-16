@@ -26,11 +26,7 @@ function [nearpoint,testData,testLabel,trainData,trainLabel,MI,MS] = getpredata(
     testData = helpdata(testIndex,:);
     testLabel = helplabel(testIndex);
     trainData = helpdata(trainIndex,:);
-    trainLabel = helplabel(trainIndex);
-
-
-
-        
+    trainLabel = helplabel(trainIndex);   
     
     Idx = find(trainIndex == 1);
     nearpoint = zeros(8*length(Idx),x(3));

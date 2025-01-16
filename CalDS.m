@@ -23,7 +23,4 @@ function distributeScore = CalDS(pop,data,T)
     
     aaa = numpop(ceil(distributeScore(1)+1));
     
-
-
-
 end
