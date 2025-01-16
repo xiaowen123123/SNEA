@@ -1,0 +1,92 @@
+MY1:使用使用流形和领域距离进行计算，算子使用原始算子
+数据集是：	 Indian_pinesKNN_mean is : 	0.64 
+SVM_mean is 	0.74 
+
+MY1:使用使用流形和领域距离进行计算，算子使用原始算子
+数据集是：	 Indian_pinesKNN_mean is : 	0.68 
+SVM_mean is 	0.77 
+
+MY1:使用使用流形和领域距离进行计算，算子使用原始算子
+数据集是：	 Indian_pinesKNN_mean is : 	0.71 
+SVM_mean is 	0.78 
+
+MY1:使用使用流形和领域距离进行计算，算子使用原始算子
+数据集是：	 Indian_pinesKNN_mean is : 	0.68 
+SVM_mean is 	0.78 
+
+MY1:使用使用流形和领域距离进行计算，算子使用原始算子
+数据集是：	 Indian_pinesKNN_mean is : 	0.70 
+SVM_mean is 	0.77 
+
+MY1:使用使用流形和领域距离进行计算，算子使用原始算子
+数据集是：	 Indian_pinesKNN_mean is : 	0.70 
+SVM_mean is 	0.00 
+
+MY1:使用使用流形和领域距离进行计算，算子使用原始算子
+数据集是：	 Indian_pinesKNN_mean is : 	0.70 
+SVM_mean is 	0.00 
+
+MY1:使用使用流形和领域距离进行计算，算子使用原始算子
+数据集是：	 Indian_pinesKNN_mean is : 	0.69 
+SVM_mean is 	0.00 
+
+MY1:使用使用流形和领域距离进行计算，算子使用原始算子
+数据集是：	 Indian_pinesKNN_mean is : 	0.70 
+SVM_mean is 	0.00 
+
+MY1:使用使用流形和领域距离进行计算，算子使用原始算子
+数据集是：	 Indian_pinesKNN_mean is : 	0.69 
+SVM_mean is 	0.00 
+
+MY1:使用使用流形和领域距离进行计算，算子使用原始算子
+数据集是：	 Indian_pinesKNN_mean is : 	0.69 
+SVM_mean is 	0.00 
+
+MY1:使用使用流形和领域距离进行计算，算子使用原始算子
+数据集是：\t Indian_pinesKNN_mean is : 	0.67 
+SVM_mean is 	0.00 
+
+MY1:使用使用流形和领域距离进行计算，算子使用原始算子
+数据集是：\t Indian_pinesKNN_mean is : 	0.68 
+SVM_mean is 	0.00 
+
+MY1:使用使用流形和领域距离进行计算，算子使用原始算子
+数据集是：\t Indian_pinesKNN_mean is : 	0.69 
+SVM_mean is 	0.00 
+
+MY1:使用使用流形和领域距离进行计算，算子使用原始算子
+数据集是：\t Indian_pinesKNN_mean is : 	0.67 
+SVM_mean is 	0.00 
+
+MY1:使用使用流形和领域距离进行计算，算子使用原始算子
+数据集是：\t Indian_pinesKNN_mean is : 	0.69 
+SVM_mean is 	0.00 
+
+MY1:使用使用流形和领域距离进行计算，算子使用原始算子
+数据集是：\t Indian_pinesKNN_mean is : 	0.63 
+SVM_mean is 	0.00 
+
+MY1:使用使用流形和领域距离进行计算，算子使用原始算子
+数据集是：\t Indian_pinesKNN_mean is : 	0.67 
+SVM_mean is 	0.00 
+
+MY1:使用使用流形和领域距离进行计算，算子使用原始算子
+数据集是：\t Indian_pinesKNN_mean is : 	0.68 
+SVM_mean is 	0.00 
+
+MY1:使用使用流形和领域距离进行计算，算子使用原始算子
+数据集是：\t Indian_pinesKNN_mean is : 	0.67 
+SVM_mean is 	0.00 
+
+MY1:使用使用流形和领域距离进行计算，算子使用原始算子
+数据集是：\t Indian_pinesKNN_mean is : 	0.66 
+SVM_mean is 	0.00 
+
+MY1:使用使用流形和领域距离进行计算，算子使用原始算子
+数据集是：\t Indian_pinesKNN_mean is : 	0.72 
+SVM_mean is 	0.00 
+
+MY2:使用使用流形和领域距离进行计算，算子使用原始算子
+数据集是：\t Indian_pinesKNN_mean is : 	0.73 
+SVM_mean is 	0.00 
+
